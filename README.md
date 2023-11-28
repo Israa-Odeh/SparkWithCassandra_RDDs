@@ -33,7 +33,7 @@ Utilizes the "studentsLog" keyspace for data operations.
 Executes a SELECT query to retrieve all fields from the "ce_students" table.
 Processes the retrieved data using RDDs.
 #### 3. Spark RDDs
-Creates a Spark session for data processing. Converts the retrieved data into an RDD (Resilient Distributed Dataset) named "studentDataRDD."
+Creates a Spark session for data processing. Converts the retrieved data into an RDD (Resilient Distributed Dataset) named "studentsDataRDD."
 Displays the number of students in the RDD using the `count()` action, and perform other manipulations on this RDD.
 #### 4. Data Manipulations
 - Identifies honor list students (GPA > 3.5) and saves them to the "honor_list" Cassandra table.
